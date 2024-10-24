@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekZone</title>
+    <link rel="icon" href="src/logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Capa inicial -->
+    <div class="cover" id="cover">
+        <h1 id="welcome-title"></h1>
+        <button id="enter-btn">Entrar</button>
+    </div>
+    <!-- Header com menu fixo -->
+    <header id="header">
+        <div class="logo-container">
+            <img src="src/logo.png" alt="Logo do Site" class="logo">
+            <span class="site-title"><b>GeekZone</b></span>
+        </div>
+        <nav>
+            <ul class="menu" id="menu">
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#leitura">Leitura</a></li>
+                <li><a href="#estudos">Estudos</a></li>
+                <li><a href="#jogos">Jogos</a></li>
+                <li><a href="#entretenimento">Entretenimento</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+        </nav>
+        <div class="theme-switcher" id="theme-switcher">💡</div>
+    </header>
+    <!-- Seção de Sobre Mim -->
+    <section id="sobre" class="section content">
+        <h2>Sobre Mim</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>👩‍💻 Estudante</h3>
+                <p>Estudante de Tecnologia da Informação pela UNIVESP, apaixonada por desenvolver software e sempre curiosa!</p>
+            </div>
+            <div class="card">
+                <h3>🎬 Filmes e Séries</h3>
+                <p>Amo assistir filmes e séries, sempre buscando novas histórias e aventuras para me inspirar.</p>
+            </div>
+            <div class="card">
+                <h3>🎧 Música</h3>
+                <p>Curto Rock e Pop, sempre com uma playlist pronta para cada momento do dia!</p>
+            </div>
+            <div class="card">
+                <h3>🎮 Videogames</h3>
+                <p>Gamer nas horas vagas, sempre explorando novos mundos e desafios nos games.</p>
+            </div>
+            <div class="card">
+                <h3>🦸‍♀️ Quadrinhos</h3>
+                <p>Fã de quadrinhos de super-heróis, adoro ler sobre aventuras épicas e personagens icônicos.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção de tecnologia -->
+    <section id="tecnologia" class="section content">
+        <h2>Sites de Tecnologia</h2>
+        <ul>
+            <li><a href="https://www.tecmundo.com.br" target="_blank">TecMundo</a></li>
+            <li><a href="https://www.techtudo.com.br" target="_blank">TechTudo</a></li>
+            <li><a href="https://www.gizmodo.com.br" target="_blank">Gizmodo Brasil</a></li>
+            <li><a href="https://www.adorocinema.com" target="_blank">AdoroCinema</a></li>
+            <li><a href="https://www.meupositivo.com.br/panoramatecnologico" target="_blank">Panorama Tecnológico</a></li>
+        </ul>
+    </section>
+    <!-- Seção de leitura -->
+    <section id="leitura" class="section content">
+        <h2>Sites de Leitura</h2>
+        <ul>
+            <li><a href="https://www.medium.com" target="_blank">Medium</a></li>
+            <li><a href="https://www.lelivros.love" target="_blank">LeLivros</a></li>
+            <li><a href="https://www.goodreads.com" target="_blank">Goodreads</a></li>
+            <li><a href="https://www.wattpad.com" target="_blank">Wattpad</a></li>
+            <li><a href="https://www.archive.org" target="_blank">Internet Archive</a></li>
+        </ul>
+    </section>
+    <!-- Seção de estudos -->
+    <section id="estudos" class="section content">
+        <h2>Sites de Estudos</h2>
+        <ul>
+            <li><a href="https://www.edx.org" target="_blank">edX</a></li>
+            <li><a href="https://www.cursosemvideo.com" target="_blank">Cursos em Vídeo</a></li>
+        <li><a href="https://www.alura.com.br" target="_blank">Alura</a></li>
+        <li><a href="https://www.coursera.org" target="_blank">Coursera</a></li>
+            <li><a href="https://www.duolingo.com" target="_blank">Duolingo</a></li>
+        </ul>
+    </section>
+    <!-- Seção de jogos -->
+    <section id="jogos" class="section content">
+        <h2>Sites de Jogos</h2>
+        <ul>
+            <li><a href="https://store.steampowered.com" target="_blank">Steam</a></li>
+            <li><a href="https://www.gamejolt.com" target="_blank">Game Jolt</a></li>
+            <li><a href="https://www.ea.com" target="_blank">EA</a></li>
+            <li><a href="https://www.ign.com" target="_blank">IGN</a></li>
+            <li><a href="https://www.gamespot.com" target="_blank">Gamespot</a></li>
+        </ul>
+    </section>
+    <!-- Seção de entretenimento -->
+    <section id="entretenimento" class="section content">
+        <h2>Sites de Entretenimento</h2>
+        <ul>
+            <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+            <li><a href="https://www.spotify.com" target="_blank">Spotify</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="https://www.twitch.tv" target="_blank">Twitch</a></li>
+            <li><a href="https://www.disneyplus.com" target="_blank">Disney+</a></li>
+        </ul>
+    </section>
+    <!-- Rodapé -->
+    <footer class="content">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61561585338009&locale=pt_BR" class="social-button">
+                    <img src="src/facebook.svg" alt="Facebook" class="social-icon"></a>
+                    <a href="https://github.com/beatrisAS" class="social-button">
+                    <img src="src/github.svg" alt="Github" class="social-icon"></a>
+                    <a href="https://www.instagram.com/beatrissilvaantunes" class="social-button">
+                    <img src="src/instagram.svg" alt="Instagram" class="social-icon"></a>
+            </div>
+            <div class="credits">
+                <p>Desenvolvido por Beatris Antunes Silva 2024</p>
+                <small>“O único limite para o nosso crescimento de amanhã são as nossas dúvidas de hoje.”</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
